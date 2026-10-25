@@ -1,0 +1,16 @@
+package com.evacuation.simulation;
+
+public enum SimulationEventType {
+
+    SIMULATION_STARTED,
+    SIMULATION_PAUSED,
+    SIMULATION_COMPLETED,
+    DISASTER_DETECTED,
+    ROAD_BLOCKED,
+    ROAD_DAMAGED,
+    ROUTE_RECALCULATED,
+    PERSON_EVACUATED,
+    PERSON_TRAPPED,
+    SHELTER_FULL,
+    RESCUE_DISPATCHED
+}
